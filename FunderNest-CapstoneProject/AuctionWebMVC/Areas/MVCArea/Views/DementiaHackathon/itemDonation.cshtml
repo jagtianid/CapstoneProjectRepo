@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "itemDonation";
+}
+
+<div id="torontoHackathon"><h1>Dementia Hackathon</h1></div><br /><br />
+<div id="title"><h2>Item Donation</h2></div><br /><br />
+
+<div class="row">
+    <div class="col-sm-6" id="login"><h2>Item Type: </h2></div>
+    <div class="col-sm-6">
+        <br />
+        <select>
+            <option value="volvo">watches</option>
+            <option value="saab">jeweleries</option>
+            <option value="opel">paintings</option>
+            <option value="audi">clothes collection</option>
+        </select>
+    </div>
+</div><br /><br />
+
+<div class="row">
+    <div class="col-sm-6" id="login"><h2>Brief Description: </h2></div>
+    <div class="col-sm-6">
+        <br />
+        <textarea rows="4" cols="50"></textarea>
+    </div>
+</div><br /><br />
+
+<div class="row">
+    <div class="col-sm-6" id="login"><h2>Estimated Price(in CAD$): </h2></div>
+    <div class="col-sm-6">
+        <br />
+        <input type="text" id="price" value="">
+    </div>
+</div><br /><br /><br /><br /><br />
+
+<p id="msg3"></p><br /><br />
+
+<div class="row" id="forget">
+    <div class="col-sm-12">
+        <button class="btn btn-small btn-success" data-bind='click: submit' onclick="window.location.href='itemDonationConfirm.html'">Submit</button>
+    </div>
+</div><br />

@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "createAccount";
+}
+
+<div id="torontoHackathon"><h1>Toronto Hackathon</h1></div><br /><br />
+<div id="title"><h2>Create New Account</h2></div><br /><br />
+
+<div class="row">
+    <div class="col-sm-6" id="login"><h2>Firstname: </h2></div>
+    <div class="col-sm-6">
+        <br />
+        <input type="text" id="firstname" value="">
+    </div>
+</div><br /><br />
+
+<div class="row">
+    <div class="col-sm-6" id="login"><h2>Lastname: </h2></div>
+    <div class="col-sm-6">
+        <br />
+        <input type="text" id="lastname" value="">
+    </div>
+</div><br /><br />
+
+<div class="row">
+    <div class="col-sm-6" id="login"><h2>Email: </h2></div>
+    <div class="col-sm-6">
+        <br />
+        <input type="text" id="email" value="">
+    </div>
+</div><br /><br />
+
+<div class="row" id="cbox1">
+    <div class="col-sm-12">
+        <input type="checkbox" checked="checked">
+        <label for="cbox1">Registration fee is $15</label>
+    </div>
+</div><br /><br /><br /><br />
+
+
+<div class="row" id="forget">
+    <div class="col-sm-12">
+        <button class="btn btn-small btn-success" data-bind='click: submit' onclick="window.location.href='payment.html'">Submit</button>
+    </div>
+</div><br /><br />
+
+

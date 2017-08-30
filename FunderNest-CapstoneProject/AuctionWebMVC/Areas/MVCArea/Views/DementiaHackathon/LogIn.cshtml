@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "LogIn";
+}
+
+<div id="torontoHackathon"><h1>Toronto Hackathon</h1></div><br /><br />
+<div id="title"><h2>Log In</h2></div><br /><br />
+
+<div class="row">
+    <div class="col-sm-6" id="login"><h2>Username: </h2></div>
+    <div class="col-sm-6">
+        <br />
+        <input type="text" id="username" placeholder="your email address">
+    </div>
+</div><br /><br />
+
+<div class="row">
+    <div class="col-sm-6" id="login"><h2>Password: </h2></div>
+    <div class="col-sm-6">
+        <br />
+        <input type="text" id="password" value="">
+    </div>
+</div><br /><br />
+
+<div class="row" id="forget">
+    <div class="col-sm-12">
+        <button type="button" class="btn btn-link" id="getNewPassword" onclick="myFunction()">forget password</button>
+    </div>
+</div><br /><br />
+
+<div class="row">
+    <div class="col-sm-12" id="forget">
+        <button type="button" class="btn btn-link" onclick="window.location.href='createAccount.html'">Create New Account</button>
+    </div>
+</div><br /><br />
+
+<p id="msg1"></p><br /><br />
+
+<div class="row" id="forget">
+    <div class="col-sm-12">
+        <button class="btn btn-small btn-success" data-bind='click: submit' onclick="window.location.href='dementiaHackathon.html'">Submit</button>
+    </div>
+</div><br /><br />
